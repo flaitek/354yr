@@ -1,5 +1,10 @@
 # Мурадов Вели Ильхам оглы
+
+
+
 Суть приложения
+
+
 
 Трекер привычек с геймификацией: добавление привычек (название + эмодзи), отметка выполнения тапом.
 
@@ -18,11 +23,21 @@
 UI: тёмная тема Material 3, градиенты, кастомные иконки через CustomPainter.
 
 
+
+
+
 Технологический стек
 
+
+
 Язык: Dart
+
 Фреймворк: Flutter (Material 3)
+
 Состояние: setState (без внешних библиотек)
+
 Графика: CustomPainter / CustomPaint, dart:math, градиенты (Sweep/Linear/Radial)
+
 UI-компоненты: Stack, ListView.builder, Dialog + StatefulBuilder, AlertDialog, SnackBar, AnimatedContainer/AnimatedOpacity
+
 Хранение: in-memory (без персистентности — данные теряются при перезапуске)
